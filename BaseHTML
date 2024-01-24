@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convergence of Large Language Models and Ontologies</title>
+    <style>
+        body {
+            background-color: #f8f8f8; /* Slightly off-white background */
+            font-family: 'Garamond', serif;
+        }
+        .header {
+            text-align: center;
+            margin: 10px;
+        }
+        .image-container {
+            width: 100%;
+            height: 300px; /* Adjust as needed */
+            background: url('your-image.jpg') no-repeat center center; 
+            background-size: cover;
+        }
+        .navbar {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div> <!-- Space for the top image -->
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#cllmo">CLLMO</a>
+        <a href="#call-for-papers">Call for Papers</a>
+        <a href="#organization">Organization</a>
+        <a href="#program">Program</a>
+        <a href="#related-work">Related Work</a>
+    </div>
+
+    <!-- Content sections -->
+    <div id="cllmo" class="header">CLLMO</div>
+    <!-- Content for CLLMO goes here -->
+
+    <div id="call-for-papers" class="header">Call for Papers</div>
+    <!-- Content for Call for Papers goes here -->
+
+    <div id="organization" class="header">Organization</div>
+    <!-- Content for Organization goes here -->
+
+    <div id="program" class="header">Program</div>
+    <!-- Content for Program goes here -->
+
+    <div id="related-work" class="header">Related Work</div>
+    <!-- Content for Related Work goes here -->
+</body>
+</html>
