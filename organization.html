@@ -42,9 +42,21 @@ ul {
 }
 
 /* Styles for organizers */
+p, ul {
+    font-size: 18px; /* Increased font size */
+    padding: 0 150px; /* Consistent padding */
+    text-align: left; /* Align paragraph text to the left */
+}
+
+h1, h2 {
+    text-align: center; /* Center align h1 and h2 headers */
+}
+
+/* Styles for organizers */
 .organizer {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     padding: 10px 150px; /* Adjust padding as needed */
     font-size: 18px;
 }
@@ -53,21 +65,18 @@ ul {
     border-radius: 50%; /* Makes the image round */
     width: 100px; /* Adjust size as needed */
     height: 100px; /* Adjust size as needed */
-    margin-right: 30px; /* Increased right margin */
+    margin-bottom: 10px; /* Space between image and text */
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
 .organizer-info {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center align text */
 }
 
 .organizer-info h3 {
-    margin: 0; /* Adjust margin as needed */
-    text-align: left; /* Align h3 to the left */
+    margin-bottom: 5px; /* Space between heading and paragraph */
 }
+
 </style>
 
 </head>
