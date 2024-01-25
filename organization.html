@@ -2,60 +2,74 @@
 <html>
 <head>
     <title>Organizations</title>
-   <style>
-        body {
-            background-color: #f8f8f8; /* Slightly off-white background */
-            font-family: 'Garamond', serif;
+    <style>
+        /* Existing styles... */
+
+        .organizer {
+            display: flex;
+            align-items: center;
+            padding: 10px 150px; /* Adjust padding as needed */
+            font-size: 18px;
         }
-        .header {
-            text-align: center;
-            margin: 10px;
+
+        .organizer img {
+            border-radius: 50%; /* Makes the image round */
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+            margin-right: 20px;
         }
-        .image-container {
-            width: 100%;
-            height: 600px; /* Adjust as needed */
-            background: url('https://github.com/CarterBeauBenson/LLMO-FOIS/blob/main/images/1.png?raw=true') no-repeat center center; 
-            background-size: cover;
-        }
-        .navbar {
-            text-align: center;
-            background-color: #006884; /* Pleasant green color */
-        }
-        .navbar a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #fff;
-            font-size: 24px; /* Larger font size */
-        }
-        p, ul {
-            font-size: 18px; /* Increased font size */
-            padding: 0 150px; /* Consistent padding */
-        }
-        h1, h2, h3 {
-            text-align: center; /* Center align headers */
-        }
-        ul {
-            list-style-type: square; /* Square bullet points */
+
+        .organizer-info {
+            flex-grow: 1;
         }
     </style>
 </head>
 <body>
     <div class="image-container"></div> <!-- Image container -->
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="call-for-papers.html">Call for Papers</a>
-        <a href="organization.html">Organization</a>
-        <a href="program.html">Program</a>
-        <a href="related-work.html">Related Work</a>
+        <!-- Navbar links... -->
     </div>
 
-    <ul>
-        <li>John Beverley, University at Buffalo</li>
-        <li>Mark Jensen, Calspan University at Buffalo Research Center</li>
-        <li>Dan Maxwell, KadSci</li>
-        <li>Una-May O’Reilly, MIT Computer Science and Artificial Intelligence Lab</li>
-        <li>Hedi Karray, Ecole Nationale d'Ingénieurs de Tarbes</li>
-    </ul>
+<div class="organizer">
+    <img src="https://github.com/CarterBeauBenson/LLMO-FOIS/blob/main/images/John%20Headshot.png?raw=true" alt="John Beverley">
+    <div class="organizer-info">
+        <h3>John Beverley</h3>
+        <p>University at Buffalo</p>
+    </div>
+</div>
 
+<div class="organizer">
+    <img src="https://github.com/CarterBeauBenson/LLMO-FOIS/blob/main/images/Mark-Jensen-7.png?raw=true" alt="Mark Jensen">
+    <div class="organizer-info">
+        <h3>Mark Jensen</h3>
+        <p>Calspan University at Buffalo Research Center</p>
+    </div>
+</div>
+
+<div class="organizer">
+    <img src="https://github.com/CarterBeauBenson/LLMO-FOIS/blob/main/images/Dan%20Maxwell%20Headshot.jpg?raw=true" alt="Dan Maxwell">
+    <div class="organizer-info">
+        <h3>Dan Maxwell</h3>
+        <p>KadSci</p>
+    </div>
+</div>
+
+<div class="organizer">
+    <img src="https://github.com/CarterBeauBenson/LLMO-FOIS/blob/main/images/Una-May.png?raw=true" alt="Una-May O’Reilly">
+    <div class="organizer-info">
+        <h3>Una-May O’Reilly</h3>
+        <p>MIT Computer Science and Artificial Intelligence Lab</p>
+    </div>
+</div>
+
+<div class="organizer">
+    <img src="https://github.com/CarterBeauBenson/LLMO-FOIS/blob/main/images/Hedi-Karray.png?raw=true" alt="Hedi Karray">
+    <div class="organizer-info">
+        <h3>Hedi Karray</h3>
+        <p>Ecole Nationale d'Ingénieurs de Tarbes</p>
+    </div>
+</div>
+    
 </body>
 </html>
+
