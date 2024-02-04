@@ -1,6 +1,9 @@
         .header {
             text-align: center;
             margin: 10px;
+            z-index: 99;
+            position: sticky;
+            top: 0;
         }
        .image-container {
             width: 100%;
