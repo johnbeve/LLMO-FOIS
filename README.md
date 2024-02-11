@@ -1,3 +1,3 @@
 # LLMO-FOIS GitHub Page Repository
 
-Web page [here](https://johnbeve.github.io/JB-Fork-LLMO-FOIS/)
+Web page [here](https://johnbeve.github.io/LLMO-FOIS/)
